@@ -1,0 +1,41 @@
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+footer{
+    height: 50vh;
+    background-color: $dark-cyan;
+    color: white;
+    padding: 8em;
+}
+.footerpart{
+    @include flex(space-between,center);
+    
+}
+.logo{
+    filter: brightness(0);
+    filter: invert(1);
+}
+footer ul li{
+    list-style-type: none;
+    padding: 1rem;
+}
+.footer p{
+    font-size: 18px;
+    
+}
+.contact{
+    display: flex;
+    gap: 1rem;
+}
+.mail{
+    display: flex;
+    gap: 1rem;
+}
+.footer__left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
