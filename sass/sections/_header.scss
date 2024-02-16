@@ -1,0 +1,39 @@
+// @use "./sections/header";
+@use "../utilities/mixin" as *;
+@use "../utilities/variables" as *;
+// @use "./utilities/base";
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+header{
+  background-color: $grayish-blue;
+}
+.headernav {
+  @include flex(space-between, center);
+}
+.headercontent {
+  @include flex(space-between, center);
+  width: 100%;
+  padding-top: 2rem;
+}
+.headercontent button {
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 20px;
+  background-color: $pink;
+  color: white;
+  font-size: 18px;
+}
+.header__button button{
+padding: 1rem 3rem;
+border: none;
+border-radius: 20px;
+}
+.header__left p{
+  padding: 2rem 0;
+  font-size: 18px;
+  word-spacing: 5px;
+}
+ 
