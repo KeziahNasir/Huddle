@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .hero__container {
   width: 90%;
   margin: 0 auto;
@@ -37,3 +31,7 @@
 .hero__content {
   width: 40%;
 }
+
+/*.hero__btn{
+    background-color: hsl(322, 100%, 66%);
+}*/
